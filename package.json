@@ -1,0 +1,16 @@
+{
+  "name": "outparse-backend",
+  "version": "1.0.0",
+  "description": "Netlify Functions backend for Outparse signup",
+  "main": "netlify/functions/signup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.0",
+    "netlify-lambda": "^2.0.15"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
