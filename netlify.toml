@@ -1,0 +1,9 @@
+[build]
+  functions = "netlify/functions"
+  publish = "dist"
+
+[context.production.environment]
+  FIREBASE_PROJECT_ID = "@firebase-project-id"
+  FIREBASE_CLIENT_EMAIL = "@firebase-client-email"
+  FIREBASE_PRIVATE_KEY = "@firebase-private-key"
+  FIREBASE_DATABASE_URL = "@firebase-database-url"
